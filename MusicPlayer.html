@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUsicPlayer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="music-player">
+
+            <!-- type -->
+
+           
+
+            <nav>
+                <div class="circle">
+                    <i> 👈 </i>
+                </div>
+
+                <div  class="type">  Romentic  </div>
+
+                <div class="circle">
+                    <i> 🟰 </i>
+                </div>
+
+            </nav>
+
+            <!-- img -->
+            <div class="song_img">
+                <img src="line.jpg"  alt="line img">
+            </div>
+            
+
+            <!-- pargrhap add -->
+            <div>
+                <h1> Song heading </h1>
+                <p> singer name (artice name) </p>
+
+
+            </div>
+          
+
+
+            <!-- audio -->
+            <audio src="-- -- XXXTENTACION - Changes (Seizure Remix) -- --(MP3_160K).mp3" id="song"></audio>
+            
+
+            <!-- progress bar -->
+            <input type="range" value="0" id="progress">
+
+
+            <!-- ▶️🔊▶️⏸️◀️⏮️⏩⏪▶️👍 -->
+
+            <div class="contole">
+                <div> 👈 </div>
+                <div onclick="playPause()" id="ctrlIcon">✋</div>
+                <div> 👉 </div>
+            </div>
+
+
+            <!-- footer -->
+            <div class="more_option">
+
+                <div class="slid-up"> ^ </div>
+
+                <!-- OPTION USER -->
+                <div class="option" >
+                    <div>UP NEXT</div>
+                    <div>LYRICS</div>
+                    <div>RELATED</div>
+                    <div>LIKED</div>
+
+                    
+                </div>
+
+                <div class="conain">
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        
+
+    </div>
+
+    
+</body>
+
+</html>
